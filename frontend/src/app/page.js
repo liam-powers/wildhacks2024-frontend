@@ -1,10 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
 import Button from "./components/Button";
+import NavBar from "./components/NavBar";
 
 export default function Home() {
   return (
-    <div>
+    <div className="bg-[#000130] w-screen h-screen">
+      <NavBar/>
       <div className="justify-center">
         Parking Re-Imagined
         <Link href="./about">

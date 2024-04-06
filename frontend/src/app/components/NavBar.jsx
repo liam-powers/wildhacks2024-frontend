@@ -2,7 +2,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 export default function Navbar() {
-    const linkCSS = "flex flex-col items-center hover:fill-white hover:text-white";
+    const linkCSS = "flex flex-col text-white items-center hover:fill-gray hover:text-gray-600";
 
     return (
         <div className="w-full h-[60px] bg-opacity-100 sticky top-0">
