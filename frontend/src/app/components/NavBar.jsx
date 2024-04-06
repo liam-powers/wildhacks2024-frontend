@@ -25,7 +25,7 @@ export default function Navbar() {
                         </Link>
                     </li>
                     <li>
-                        <Link href="/find_a_spot" className={linkCSS}>
+                        <Link href="/findaspot" className={linkCSS}>
                             Find a Spot
                         </Link>
                     </li>

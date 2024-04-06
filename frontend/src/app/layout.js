@@ -13,8 +13,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <NavBar />
         <body className={inter.className}>
+          <NavBar />
           <div className="flex text-lg pt-8 px-20 justify-center text-center">
             {children}
           </div>

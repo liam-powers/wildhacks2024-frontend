@@ -1,4 +1,4 @@
-export default function find_a_spot() {
+export default function findaspot() {
     // function stuff can go here
     return (
         <div>
