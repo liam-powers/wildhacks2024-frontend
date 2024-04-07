@@ -6,6 +6,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Button from "../components/Button";
 import NavBar from "../components/NavBar";
+import PlaceComponent from '../components/place.components';
 import Search from "../components/Search";
 import SearchBar from "../components/SearchBar"; // Change this line
 import { SearchResultsList } from '../components/SearchResultsList';
@@ -18,8 +19,9 @@ export default function findaspot() {
       <NavBar/>
         <div className="searchbar-container">
             <div>Where are you headed?</div>
-            <SearchBar setResults = {setResults}/>
-            <SearchResultsList results={results}/>
+            <PlaceComponent setResults = {setResults}/>
+            {/* <SearchBar setResults = {setResults}/>
+            <SearchResultsList results={results}/> */}
         </div>
     </div>
   );
